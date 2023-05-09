@@ -1,0 +1,287 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+* {
+  font-family: "Roboto", sans-serif; }
+
+.exchange {
+  padding: 31px 164px 79px; }
+  .exchange__title h1 {
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #2b3b48;
+    margin-bottom: 42.8px; }
+  .exchange__wrapper {
+    width: 100%; }
+  .exchange__col {
+    padding: 0;
+    max-width: calc(100% - 255px); }
+    .exchange__col hr {
+      margin: 24px 0 29px 0px;
+      opacity: 0.3;
+      border-color: #bac9d5; }
+  .exchange__item-col {
+    width: 351px;
+    margin-right: 75px;
+    padding: 0; }
+  .exchange__item-col:nth-child(5) hr, .exchange__item-col:nth-child(6) hr {
+    display: none; }
+  .exchange__calc {
+    width: 255px; }
+  .exchange__calc-wrapper {
+    background-image: linear-gradient(154deg, #2b3b48 32%, #8093a5 115%);
+    text-align: center;
+    padding: 19px 20px 26px;
+    width: 255px;
+    height: 288px;
+    position: relative;
+    top: -3px; }
+  .exchange__calc-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 27px; }
+  .exchange__calc-inp {
+    position: relative; }
+    .exchange__calc-inp input {
+      width: 128px;
+      padding: 1px 18px 0 15px;
+      border-right: solid 1px #eaeef2 !important; }
+    .exchange__calc-inp select {
+      width: 86px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.25;
+      text-align: center;
+      color: #2b3b48;
+      appearance: none;
+      padding-left: 14px; }
+    .exchange__calc-inp input,
+    .exchange__calc-inp select {
+      height: 48px;
+      background-color: #fff;
+      border: none;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.25;
+      color: #2b3b48;
+      text-align: start; }
+    .exchange__calc-inp .arrow {
+      position: absolute;
+      top: 0;
+      right: 14px;
+      z-index: 98;
+      height: 100%;
+      display: flex;
+      align-items: center; }
+      .exchange__calc-inp .arrow i {
+        font-size: 12px; }
+  .exchange__icon {
+    margin: 19px 0;
+    position: relative;
+    left: -1px; }
+  .exchange__result {
+    background-color: #fff;
+    position: relative; }
+    .exchange__result p {
+      width: 215px;
+      height: 48px;
+      padding: 15px 16px 9px 15px;
+      text-align: start;
+      margin-bottom: 0; }
+    .exchange__result span {
+      position: absolute;
+      right: 16px;
+      top: 0;
+      height: 100%;
+      display: flex;
+      align-items: center; }
+  .exchange__currency {
+    margin-left: 14px; }
+    .exchange__currency .currency-name {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.25;
+      color: #2b3b48;
+      margin-bottom: 1px;
+      margin-left: 1px; }
+    .exchange__currency .currency-title {
+      font-size: 12px;
+      line-height: 2;
+      color: #2b3b48;
+      display: block; }
+  .exchange__img img {
+    width: 43px;
+    height: 29px; }
+  .exchange__sales {
+    margin-left: 49px; }
+  .exchange__buying p,
+  .exchange__buying span, .exchange__sales p,
+  .exchange__sales span {
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal; }
+  .exchange__buying p, .exchange__sales p {
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    color: #4f6477; }
+  .exchange__buying span, .exchange__sales span {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #2b3b48;
+    display: block;
+    width: 59px;
+    position: relative;
+    top: -1px; }
+  .exchange__buttons {
+    margin-top: 43px; }
+    .exchange__buttons .detail button {
+      width: 352px;
+      height: 48px;
+      background-color: #2b3b48;
+      margin-right: 75px;
+      color: #fff;
+      border: 2px solid #2b3b48; }
+    .exchange__buttons .all button {
+      width: 352px;
+      height: 48px;
+      border: solid 2px #4f6477;
+      background-color: #fff; }
+
+@media screen and (max-width: 1280px) {
+  .exchange__item-col:nth-child(5) hr {
+    display: block; }
+  .exchange__item-col {
+    width: 451px;
+    margin-right: 0; }
+  .exchange__buttons {
+    flex-direction: column; }
+    .exchange__buttons .all button,
+    .exchange__buttons .detail button {
+      width: 452px; }
+    .exchange__buttons .all {
+      margin-top: 10px; } }
+@media screen and (max-width: 1024px) {
+  .exchange__title h1 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 2.45;
+    letter-spacing: -0.49px;
+    color: #2b3b48;
+    margin-bottom: 17px; }
+  .exchange {
+    padding: 9px 15px 27px; }
+  .exchange__cacl-wrapper {
+    top: 0; } }
+@media screen and (max-width: 576px) {
+  .exchange__col {
+    max-width: 345px;
+    margin: auto; }
+    .exchange__col hr {
+      margin: 20px 0; }
+  .exchange__title {
+    max-width: 345px;
+    margin: auto; }
+  .exchange__item-col {
+    width: 100%;
+    padding: 0 5px 0 1px; }
+  .exchange__calc {
+    width: 100%;
+    margin-top: 32px; }
+  .exchange__calc-wrapper {
+    max-width: 345px;
+    width: 100%;
+    margin: auto;
+    padding: 21px 24px 24px; }
+  .exchange__buttons {
+    margin: 26px auto 0;
+    flex-direction: column;
+    align-items: center;
+    max-width: 345px; }
+    .exchange__buttons .detail {
+      width: 100%; }
+      .exchange__buttons .detail button {
+        margin-right: 0;
+        width: 100%;
+        padding: 0 125px 0 127px; }
+    .exchange__buttons .all {
+      margin: 18px auto 0;
+      width: 100%; }
+      .exchange__buttons .all button {
+        border: none;
+        width: 100%;
+        height: 32px;
+        padding: 0 91px 0 102px; }
+  .exchange__calc-inp input {
+    width: calc(100% - 86px); }
+  .exchange__buying span, .exchange__sales span {
+    width: 60px; } }
+@media screen and (max-width: 360px) {
+  .exchange__buttons .detail button {
+    padding: 0 115px 0 117px; }
+  .exchange__buttons .all button {
+    padding: 0 81px 0 92px; } }
+@media screen and (max-width: 280px) {
+  .exchange__sales {
+    margin-left: 5px; }
+  .exchange__buttons .detail button {
+    padding: 0 75px; }
+  .exchange__buttons .all button {
+    padding: 0 42px; } }
+@media screen and (orientation: landscape) and (max-width: 1024px) {
+  .exchange__item-col {
+    width: 451px;
+    margin-right: 0; }
+  .exchange__buttons .detail button {
+    width: 452px; }
+  .exchange__buttons .all {
+    margin-top: 10px; }
+    .exchange__buttons .all button {
+      width: 452px; } }
+@media only screen and (orientation: landscape) and (max-width: 740px) {
+  .exchange__col {
+    max-width: 100%; }
+  .exchange__item-col {
+    width: 100%; }
+  .exchange__calc {
+    width: 100%;
+    margin-top: 33px; }
+  .exchange__calc-wrapper {
+    margin: auto; }
+  .exchange__buttons {
+    margin-top: 26px;
+    flex-direction: column; }
+    .exchange__buttons .detail {
+      margin: auto; }
+      .exchange__buttons .detail button {
+        width: 345px;
+        margin-right: 0; }
+    .exchange__buttons .all {
+      margin: 18px auto 0; }
+      .exchange__buttons .all button {
+        border: none;
+        width: 345px;
+        height: 32px;
+        margin-right: 0; } }
+@media only screen and (orientation: landscape) and (width: 1368px) and (height: 912px) {
+  .exchange__item-col {
+    margin-right: 30px; }
+  .exchange__buttons .detail button {
+    margin-right: 30px; } }
+@media only screen and (orientation: landscape) and (width: 1180px) and (height: 820px) {
+  .exchange__item-col:nth-child(5) hr {
+    display: block; }
+  .exchange__buttons .all {
+    margin-top: 10px; } }
+
+/*# sourceMappingURL=main.css.map */
